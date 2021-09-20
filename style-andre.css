@@ -29,9 +29,40 @@
     background-size:contain;
     background-position: bottom center;
     background-color: black;
+    min-height: 100vh;
     height: 100%;
     margin: 0%;
 }
+#carouselku{
+    size: 50%;
+    padding-top: 100px;
+    margin-left: -140px; 
+}
+.carousel-item {
+    text-align: center;
+    padding-bottom: 200px;
+    }
+.carousel-indicators li{
+    height: 1rem !important;
+    width: 2rem !important;
+    border-radius: 50% !important;
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
+    
+}
+.carousel-indicators button {
+    margin-top: -240px;
+    width: 0.5rem !important;
+    height: 0.5rem !important;
+}
+.carousel-control-next{
+    margin-right: -2rem;
+
+}
+.carousel-control-prev{
+    margin-left: -2rem;
+}
+
 
 
 .features-bg-image3{
