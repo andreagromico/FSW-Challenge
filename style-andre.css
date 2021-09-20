@@ -1,0 +1,224 @@
+.main-page-bg-image1 {
+    position: relative;
+    background: url(./assets/image/main-bg.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    height: 100%;
+    margin: 0%;
+}
+
+.nav-link:hover{
+    color: white;
+    background-color:rgb(212, 142, 55);
+    opacity: 70%;
+}
+.jumbotron-title{
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+}
+.jumbotron-sub{
+    color: white;
+    font-size: 24px;
+}
+
+
+.the-game-bg-image2{
+    position: relative;
+    background: url(./assets/image/the-games-bg.jpg);
+    background-size:contain;
+    background-position: bottom center;
+    background-color: black;
+    height: 100%;
+    margin: 0%;
+}
+
+
+.features-bg-image3{
+    position: relative;
+    background: url(./assets/image/features.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    height: 100%;
+}
+.timeline{
+    padding-left: 100px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 4px;    
+    padding-bottom: 20px;
+}
+.timeline h2{
+    font-size: 24pt;
+    color: #ff9900;
+}
+.contain3{
+    padding-top: 10%;
+}
+.feature{
+    color: white;
+}
+.feature h1{
+    font-size: 36pt;
+    text-transform: uppercase;
+}
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #111;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+
+.system-req-bg-image4{
+    position: relative;
+    background: url(./assets/image/requirements.png);
+    opacity: 0.75;
+    background-position: center;
+    background-size: cover;
+    background-color: auto;
+    height: 100%;
+    width: 100%;
+}
+
+
+.top-score-bg-image5{
+    position: relative;
+    background: url(./assets/image/image\ 1.png);
+    background-size: contain;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+
+.subscribe-bg-image6{
+    position:relative;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100%;
+}
+
+.container-fluid{
+    padding-left: 0rem;
+    padding-right: 0rem;
+    overflow: hidden;
+    height: 100%;
+}
+
+.background-hitam{
+    background-color: black;
+}
+
+.card-body { 
+    background-color: rgb(204, 204, 204); 
+}
+.card-header, .card-footer { opacity: 0.5}
+
+.card-title,.content-title{
+    color: darkorange
+}
+
+.card-text,.content-text{
+    color: white;
+}
+
+.padding {
+    padding: 2rem
+}
+
+
+.block,
+.card {
+    border-width: 0;
+    border-radius: .25rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .05);
+    margin-bottom: 1.5rem
+}
+
+.nav-link{
+    color: white;
+    font-weight: bold;
+}
+
+
+.table{
+    border-right: 1px white;
+    border-left: 1px white;
+    border-top: 1px white;
+    border-bottom: 1px white;
+}
+
+
+.subscribe-image6{
+    background-color: black;
+    }
+#subscription{
+    margin-top: 190px;
+}
+.form-control::placeholder { 
+    color: orange;
+    opacity: 1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#subscribe{
+    margin-top: 30px;
+    width: 360px;
+    height: 40px;
+}
+#footer{
+    background-color: #000;
+    color: #fff;
+}
+
+#footer a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: green;
+    background-color: transparent;
+    text-decoration: underline;
+      }
+html{
+    overflow-x: hidden;
+}
